@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/page_up"
+            android:title="@string/up_page"
+            android:icon="@drawable/up_arrow_foreground"
+            app:showAsAction="always"/>
+    <item
+            android:id="@+id/page_down"
+            android:title="@string/down_page"
+            android:icon="@drawable/down_arrow_foreground"
+            app:showAsAction="always"/>
+        <item
+                android:id="@+id/annotate"
+                android:title="@string/annotate"
+                android:icon="@drawable/pen_foreground"
+                app:showAsAction="always"/>
+        <item
+                android:id="@+id/highlight"
+                android:title="@string/highlight"
+                android:icon="@mipmap/highlighter_foreground"
+                app:showAsAction="always"/>
+        <item
+                android:id="@+id/erase"
+                android:title="@string/erase"
+                android:icon="@mipmap/eraser_foreground"
+                app:showAsAction="always"/>
+       <item
+            android:id="@+id/click"
+            android:title="Clear draw mode"
+            android:icon="@drawable/click_foreground"
+            app:showAsAction="always"/>
+         <item
+            android:id="@+id/redo"
+            android:title="@string/redo"
+            android:icon="@drawable/redo_foreground"
+            app:showAsAction="always"/>
+         <item
+            android:id="@+id/undo"
+            android:title="@string/undo"
+            android:icon="@drawable/undo_foreground"
+            app:showAsAction="always"/>
+</menu>
